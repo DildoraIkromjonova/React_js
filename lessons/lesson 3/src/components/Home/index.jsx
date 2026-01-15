@@ -37,7 +37,7 @@ function Home() {
     }
   }
   return (
-    <div>
+    <div style={{padding:"10px"}}>
       <h1 style={{color: "red"}}>Home Component {count} {value} {select} {checkbox}</h1>
       <br />
       <br />
@@ -46,11 +46,14 @@ function Home() {
       <br />
       <button onClick={() => counter("plus")}>Click +</button>
       <button onClick={() => counter("minus")}>Click -</button>
+   
       <input
         type="text"
         onChange={changeAction}
         style={{ padding: "5px,10px" }}
       />
+      
+    
       <select value={select} onChange={SelectChange}>
         <option value="">Tilni tanlang</option>
         <option value="O'zbek">O'zbek</option>
