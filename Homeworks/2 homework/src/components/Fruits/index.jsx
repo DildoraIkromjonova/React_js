@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+// Rasmlarni to‘g‘ri import qilamiz
 import watermelon from "../../assets/images/watermelon.png";
 import peach from "../../assets/images/peach.png";
 import papaya from "../../assets/images/papaya.png";
@@ -7,10 +8,9 @@ import orange from "../../assets/images/orange.png";
 import mango from "../../assets/images/mango.png";
 import lemon from "../../assets/images/lemon.png";
 import grape from "../../assets/images/grape.png";
-import banana from "../../assets/images/Banan.png";
+import banana from "../../assets/images/banana.png"; // tuzatildi
 import cherry from "../../assets/images/cherry.png";
-import avocado from "../../assets/images/avacado.png";
-import coconut from "../../assets/images/coconut.png";
+import avocado from "../../assets/images/avocado.png"; // tuzatildi
 
 function Fruit() {
   const [fruits] = useState([
@@ -24,7 +24,6 @@ function Fruit() {
     { id: 8, title: "Banana", img: banana },
     { id: 9, title: "Cherry", img: cherry },
     { id: 10, title: "Avocado", img: avocado },
-    { id: 11, title: "Coconut", img: coconut },
   ]);
 
   return (

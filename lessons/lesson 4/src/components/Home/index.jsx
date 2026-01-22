@@ -50,12 +50,16 @@ function Home() {
             <span className="student-info">
               <b>{name}</b> {surname}
             </span>
+            <button>
+              Edit
+            </button>
             <button
               className="delete-btn"
               onClick={() => deleteStudent(id)}
             >
               Delete
             </button>
+
           </li>
         ))}
       </ul>
