@@ -1,0 +1,79 @@
+.wrap {
+  border: 2px solid red;
+  height: 100vh;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.wrap h1 {
+  color: red;
+}
+
+.wrap h1:hover {
+  color: blue;
+}
+.Small {
+  padding: 5px;
+  background-color: pink;
+  border: 3px solid red;
+  color: maroon;
+  border-radius: 3px;
+}
+
+
+.Medium {
+  padding: 10px;
+  background-color: lightgreen;
+  border: 3px solid green;
+  color: rgb(0, 128, 6);
+  border-radius: 3px;
+}
+
+.Large {
+  padding: 15px 25px;
+  background-color: lightblue;
+  border: 3px solid blue;
+  color: rgb(9, 20, 49);
+  border-radius: 3px;
+}
+
+.Input {
+  border: 2px solid greenyellow;
+  border-radius: 10px;
+  padding: 15px 20px;
+  background-color: rgb(109, 218, 109);
+  outline: none;
+}
+
+.input {
+  border: 2px solid red;
+  border-radius: 10px;
+  padding: 30px 45px;
+  outline: none;
+  background-color: rgb(233, 143, 143);
+}
+
+.inpute {
+  border: 2px solid blue;
+  border-radius: 10px;
+  padding: 50px 65px;
+  outline: none;
+  background-color: rgb(94, 92, 234);
+
+}
+
+.Large :hover{
+  background-color: rgb(30, 83, 121);
+}
+.Large:focus{
+  border: 2px solid red;
+}
+
+.Large::after{
+  border: 2 px solid blue;
+  background-color: rgb(107, 177, 200);
+}
