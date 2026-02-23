@@ -41,6 +41,7 @@ const Home = () => {
       setData(newArr);
       localStorage.setItem("data", JSON.stringify(newArr));
     }
+    else ""
   };
 
   const editStudent = (id) => {

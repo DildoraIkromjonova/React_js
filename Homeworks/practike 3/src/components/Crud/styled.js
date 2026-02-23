@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
- export const Container = styled.div`
+export const Container = styled.div`
   padding: 30px;
   font-family: sans-serif;
 
@@ -17,7 +17,7 @@ border-top-right-radius: 10px;
 
 `;
 
- export const AddBtn = styled.button`
+export const AddBtn = styled.button`
   background: #7c3aed;
   color: white;
   padding: 8px 16px;
@@ -26,7 +26,7 @@ border-top-right-radius: 10px;
   cursor: pointer;
 `;
 
- export const FormWrapper = styled.div`
+export const FormWrapper = styled.div`
   background:#F9F0FF;
   padding: 20px;
   border-radius: 12px;
@@ -36,27 +36,27 @@ border-top-right-radius: 10px;
   gap: 10px;
 `;
 
- export const Input = styled.input`
+export const Input = styled.input`
   padding: 8px;
   border-radius: 6px;
   outline:none;
 `;
 
- export const Select = styled.select`
+export const Select = styled.select`
   padding: 8px;
   border-radius: 6px;
   border: 1px solid #ddd;
   opacity:none;
 `;
 
- export const ButtonGroup = styled.div`
+export const ButtonGroup = styled.div`
   grid-column: 1 / -1;
   display: flex;
   justify-content: flex-end;
   gap: 10px;
 `;
 
- export const SaveBtn = styled.button`
+export const SaveBtn = styled.button`
   background: #16a34a;
   color: white;
   border: none;
@@ -64,7 +64,7 @@ border-top-right-radius: 10px;
   border-radius: 6px;
 `;
 
- export const CancelBtn = styled.button`
+export const CancelBtn = styled.button`
   background: #ddd;
   border: none;
   padding: 8px 14px;
@@ -73,7 +73,7 @@ border-top-right-radius: 10px;
 
 
 
- export const Table = styled.table`
+export const Table = styled.table`
   width: 100%;
   border-collapse: collapse;
 background:white;
@@ -88,12 +88,12 @@ background:white;
 `;
 
 
- export const Actions = styled.td`
+export const Actions = styled.td`
   display: flex;
   gap: 10px;
 `;
 
-  export const IconBtn = styled.button`
+export const IconBtn = styled.button`
   border: none;
   padding: 6px 8px;
   cursor: pointer;
