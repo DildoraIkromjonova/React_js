@@ -1,12 +1,15 @@
-import { createContext, useContext } from "react";
- const Counter = createContext()
+import { createContext, useContext, useReducer } from "react";
+import { InitialState, reducer } from "./reducer";
+const Counter = createContext()
 
 
- export const ContextData=()=>useContext(Counter)
+export const ContextData = () => useContext(Counter)
 
-const CounterContext=({children})=>{
-  const name = "Dildora"
-  return  <Counter.Provider value={name}>{children}</Counter.Provider>
+const CounterContext = ({ children }) => {
+
+
+  const data = useReducer(reducer,InitialState )
+  return <Counter.Provider value={data}>{children}</Counter.Provider>
 }
 
 export default CounterContext;

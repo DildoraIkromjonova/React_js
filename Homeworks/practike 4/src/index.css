@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./assets/images/rect.png);
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  /* background-position: left; */
+  background-attachment: fixed;
+  height: 100vh;
+}

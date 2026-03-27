@@ -3,10 +3,10 @@ import { ContextData } from "../../context/counter";
 
 
 const SubChild2 =()=>{
-  const data= ContextData()
+  const [state]= ContextData()
 
   
-  return <h1>Subchild2 {data}</h1>
+  return <h1>Subchild2 {state}</h1>
 }
 
 export default SubChild2;

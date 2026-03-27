@@ -1,22 +1,18 @@
-import { useState, } from "react"
+import { ContextData } from "../../context/counter";
 
 const SubChild1 = () => {
-
-  const [count, setCount] = useState(0);
-  const minus=()=>setCount(count-1);
-  const plus=()=>setCount(count+1);
-
-
-
+const [state,dispatch]=ContextData()
 
   return (
     <div>
-      <h1>Counter {count} </h1>
+      <h1>Counter </h1>
       <br />
       <hr />
       <br />
-      <button onClick={minus}>Minus -</button>
-      <button onClick={plus}>Plus +</button>
+      <button onClick={()=> dispatch ({type:"-",payload:1})}>Minus -</button>
+      <button onClick={()=> dispatch ({type:"+",payload:1})}>Plus +</button>
+      <button onClick={()=> dispatch ({type:"-5",payload:5})}>Minus -</button>
+      <button onClick={()=> dispatch ({type:"+5",payload:5})}>Plus +</button>
     </div>
   )
 }
